@@ -1,0 +1,212 @@
+.sidebar1 {
+    position: fixed;
+    left: 2%;
+    height: 100%;
+    width: 42px;
+    background:rgba(255, 0, 0, 1);
+}
+
+.sidebar2 {
+    position: fixed;
+    left: 3%;
+    height: 100%;
+    width: 42px;
+    background:rgba(84, 84, 84, 1);
+    z-index: -1;
+}
+
+.judul {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+.subjudul1 {
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+.subjudul2 {
+    font-family: "Life Savers";
+    font-size: 95px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+.pencaharian {
+    display: flex;
+    align-items: center; 
+    padding-top: 5px;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pencaharian i {
+    margin-right: 10px; 
+}
+
+.isi {
+    margin-left: 20px;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+
+.button1{
+    position: fixed;
+    top: 17%;
+    left: 30%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    position: fixed;
+    top: 17%;
+    left: 65%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3{
+    position: fixed;
+    top: 17%;
+    left: 75%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button4{
+    position: fixed;
+    top: 17%;
+    left: 85%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 a,
+.button2 a,
+.button3 a,
+.button4 a{
+    color: rgb(0, 0, 0);
+}
+
+.garis{
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    height: 2px;
+    width: 950px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+
+.garis_2{
+    position: fixed;
+    top: 86%;
+    left: 11%;
+    height: 2px;
+    width: 1200px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+.imput{
+    position: fixed;
+    top: 34%;
+    left: 10%; 
+    width: 1250px;
+}
+
+.kotak2{
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    width: 1250px;
+    height: 480px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: white;
+}
+
+.button-kirim {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+.button-kirim button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Warna biru yang sering digunakan di Bootstrap */
+    color: white;
+    font-family: "Irish Grover", sans-serif;
+    cursor: pointer;
+}
+
+.satu .subjudul{
+    font-family: "Irish Grover", sans-serif;
+    font-size: 20px;
+}
+
+.filter-bahan {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Membuat 6 kolom dengan lebar yang sama */
+    gap: 10px; /* Jarak antar kolom */
+}
+
+.filter-bahan label {
+    font-family: "Irish Grover", sans-serif;
+}
+

@@ -1,0 +1,199 @@
+body{
+    background-color: rgba(246, 245, 242, 1);
+    margin-bottom: 10rem;
+}
+
+.judul {
+    font-family: "Irish Grover";
+    font-size: 80px;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.subjudul_awal{
+    font-family: "Life Savers";
+    text-align: center;
+    font-size: 40px;
+}
+
+.subjudul1 {
+    font-family: "Life Savers";
+    text-align: start;
+}
+
+.subjudul1 .atas{
+    font-size: 30px;
+}
+
+.subjudul1 .satu{
+    padding-top: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.subjudul2{
+    font-family: "Life Savers";
+    text-align: start;
+}
+
+.subjudul2 .atas{
+    font-size: 30px;
+}
+
+.subjudul2 .satu{
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.sidebar1 {
+    position: fixed;
+    left: 2%;
+    height: 100%;
+    width: 42px;
+    background:rgba(255, 0, 0, 1);
+}
+
+.sidebar2 {
+    position: fixed;
+    left: 3%;
+    height: 100%;
+    width: 42px;
+    background:rgba(84, 84, 84, 1);
+    z-index: -1;
+}
+
+.tombol{
+    display: flex;
+    margin-left: 9rem;
+}
+
+.button1{
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    margin-left: 1rem;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    background: none;
+    margin-left: 5rem;
+}
+
+.button2:hover{
+    color: pink;
+}
+
+.button3{
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.garis{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    height: 2px;
+    width: 400px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+.button1 a,
+.button2 a,
+.button3 a{
+    color: rgb(0, 0, 0);
+}
+
+.Kotak{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    width: 800px;
+    height: 500px;
+    background-color:rgba(186, 29, 29, 1);
+    border-radius: 20px;
+}
+
+.kotak2{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: white;
+}
+
+.Judulmakan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.sesion_2 .kotak3{
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    width: 1250px;
+    height: 480px;
+    overflow: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: white;
+}
+
+.sesion_2 .kotak4{
+    position: absolute;
+    top: 145%;
+    left: 10%;
+    width: 1250px;
+    height: 480px;
+    overflow: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: white;
+    margin-bottom: 10%;
+}
+
+.Kotak img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}

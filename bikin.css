@@ -1,0 +1,115 @@
+body {
+    font-family: 'itim', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sidebar1 {
+    position: fixed;
+    left: 2%;
+    height: 100%;
+    width: 42px;
+    background:rgba(255, 0, 0, 1);
+}
+
+.sidebar2 {
+    position: fixed;
+    left: 3%;
+    height: 100%;
+    width: 42px;
+    background:rgba(84, 84, 84, 1);
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'itim', Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    font-family: 'itim', Arial, sans-serif;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'itim', Arial, sans-serif;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    font-family: 'itim', Arial, sans-serif;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+input,
+label,
+button {
+    font-family: 'itim', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 12px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}

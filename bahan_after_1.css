@@ -1,0 +1,228 @@
+.sidebar1 {
+    position: fixed;
+    left: 2%;
+    height: 100%;
+    width: 42px;
+    background:rgba(255, 0, 0, 1);
+}
+
+.sidebar2 {
+    position: fixed;
+    left: 3%;
+    height: 100%;
+    width: 42px;
+    background:rgba(84, 84, 84, 1);
+    z-index: -1;
+}
+
+.judul {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+.subjudul1 {
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+.subjudul2 {
+    font-family: "Life Savers";
+    font-size: 95px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+.pencaharian {
+    display: flex;
+    align-items: center; 
+    padding-top: 5px;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pencaharian i {
+    margin-right: 10px; 
+}
+
+.isi {
+    margin-left: 20px;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+
+.button1{
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    position: absolute;
+    top: 17%;
+    left: 65%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3{
+    position: absolute;
+    top: 17%;
+    left: 75%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button4{
+    position: absolute;
+    top: 17%;
+    left: 85%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 a,
+.button2 a,
+.button3 a,
+.button4 a{
+    color: rgb(0, 0, 0);
+}
+
+.garis{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    height: 2px;
+    width: 950px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+.garis1{
+    height: 2px;
+    width: 175px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+
+.kotak2 {
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 8.5rem;
+    margin-bottom: 2rem;
+    width: 1250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tampil {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.tampil-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tampil-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%; 
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: white;
+}
+
+.card {
+    width: 100%;
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-body{
+    display: flexbox;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-body  a:hover{
+    color: rgb(255, 0, 0);
+}

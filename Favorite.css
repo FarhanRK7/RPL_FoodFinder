@@ -1,0 +1,259 @@
+.sidebar1 {
+    position: fixed;
+    left: 2%;
+    height: 100%;
+    width: 42px;
+    background:rgba(255, 0, 0, 1);
+}
+
+.sidebar2 {
+    position: fixed;
+    left: 3%;
+    height: 100%;
+    width: 42px;
+    background:rgba(84, 84, 84, 1);
+    z-index: -1;
+}
+
+.judul {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+.subjudul {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.subjudul span {
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.subjudul i {
+    padding-left: 5rem;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.pencaharian {
+    display: flex;
+    align-items: center; 
+    padding-top: 5px;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.pencaharian i {
+    margin-right: 10px; 
+}
+
+.isi {
+    margin-left: 20px;
+    font-family: "Irish Grover";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+.Ellipse_1{
+    position: absolute;
+    top: 5%;
+    left: 82%;
+    background: rgba(255, 144, 144, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.Ellipse_2{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    background: rgba(167, 78, 78, 1);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.button1{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_isi{
+    height: 25px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_isi .name {
+    font-family: "Irish Grover";
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+.button1 a{
+    color: rgb(0, 0, 0);
+}
+
+.button2 a{
+    color: rgb(0, 0, 0);
+}
+
+.garis{
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    height: 2px;
+    width: 792px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+
+.kotak2{
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 8.5rem;
+    margin-bottom: 2rem;
+    width: 1250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tampil{
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.tampil-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tampil hr{
+    margin: .5rem 1rem 2rem;
+    height: 3px;
+    background-color: black;
+}
+.tampil-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tampil-container .tampil-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%; 
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: white;
+}
+
+.card {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gambar {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.card-title{
+    vertical-align: center;
+    margin-top: 6px;
+}
+
+.button_favo{
+    font-size: 30px;
+    color: pink;
+    border: none;
+    background: none;
+    margin-left: 5rem;
+}
+
+.button_favo:hover{
+    color: rgb(0, 0, 0);
+}
+
+.title-and-button{
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

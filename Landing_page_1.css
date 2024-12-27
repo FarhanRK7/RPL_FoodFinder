@@ -1,0 +1,380 @@
+body{
+    background-color: rgba(246, 245, 242, 1);
+}
+
+.tulisan {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+    z-index: 1;
+}
+
+.judul {
+    font-family: "Irish Grover";
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.subjudul {
+    font-family: "Irish Grover";
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.button_Home {
+    position: absolute;
+    top: 125%;
+    left: 2%;
+    font-family: "Irish Grover";
+    margin-top: 1rem;
+    width: 300px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(104, 255, 128, 1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 145%;
+    left: 2%;
+    font-size: 25px;
+}
+
+.logo .fa-instagram{
+    color: rgba(217, 217, 217, 1);
+}
+.logo .fa-facebook{
+    color: rgba(71, 101, 255, 1);
+}
+.logo .fa-youtube{
+    color: rgba(255, 0, 0, 1);
+}
+.logo .fa-twitter{
+    color: rgba(0, 194, 255, 1);
+}
+
+.logo a{
+    color: #000;
+}
+
+.tampilan_img {
+    padding-top: 120px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(IMG/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.tampilan .tulisan{
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Hapus z-index atau atur nilainya lebih rendah dari z-index .nav_bc */
+    padding: 16px 2rem;
+}
+
+.nav_bc {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(255, 144, 144, 0.3); 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav .beranda {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding-left: 67%;
+    gap: 1rem;
+}
+
+.profile{
+    font-family: "Irish Grover";
+    color: white;
+    font-size: 30px;
+    margin-right: 50rem ;
+}
+
+.button1,
+.button2,
+.button3 {
+    height: 35px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 144, 1);
+    font-family: "Irish Grover";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 a,
+.button2 a,
+.button3 a,
+.button_Home a{
+    color: rgb(0, 0, 0);
+}
+
+.garis {
+    position: fixed;
+    top: 70px; /* Adjusted */
+    left: 30%;
+    height: 2px;
+    width: 950px;
+    background-color: rgba(255, 144, 144, 1);
+}
+
+.sesion_1 .satu{
+    font-family: "Irish Grover";
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+}
+
+.sesion_1 .dua{
+    font-family: "Irish Grover";
+    margin-top: 1rem;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    text-align: justify;
+}
+
+.sesion_1 .gambar{
+    font-family: "Irish Grover";
+    margin-right: 2rem;
+    background: rgba(255, 144, 144, 1);
+    width:450px;
+    height: 450px;
+    border-radius: 100%;
+    background-image: url(IMG/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+.sesion_2 .kotak_4 a,
+.sesion_2 .kotak_5 a,
+.sesion_2 .kotak_6 a{
+    color: #000;
+}
+
+.sesion_2 .judul{
+    font-family: "Irish Grover";
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+}
+
+.sesion_2 .kotak {
+    justify-content: space-between;
+    height: 480px;
+    width: 1300px;
+    background-color: rgba(186, 29, 29, 1);
+    margin-top: 0rem;
+    margin-left: 5rem;
+    border-radius: 20px;
+}
+
+.sesion_2 .kotak .atas,
+.sesion_2 .kotak .bawah,
+.flex-container,
+.flex-container_satu{
+    display: flex;
+}
+
+
+.sesion_2 .kotak .atas .kotak_1{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1rem;
+    background-image: url(assets/img/nasi_goreng.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sesion_2 .kotak .atas .kotak_2{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1rem;
+    background-image: url(assets/img/nasi_kuning.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sesion_2 .kotak .atas .kotak_3 {
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1rem;
+    background-image: url(assets/img/nasi_uduk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sesion_2 .kotak .bawah .kotak_4,
+.sesion_2 .kotak .bawah .kotak_5,
+.sesion_2 .kotak .bawah .kotak_6 {
+    height: 125px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin: 1rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.sesion_2 .kotak .bawah .kotak_4 .flex-container_satu,
+.sesion_2 .kotak .bawah .kotak_5 .flex-container_satu,
+.sesion_2 .kotak .bawah .kotak_6 .flex-container_satu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.sesion_2 .kotak .bawah .kotak_4 .flex-container_satu span,
+.sesion_2 .kotak .bawah .kotak_5 .flex-container_satu span,
+.sesion_2 .kotak .bawah .kotak_6 .flex-container_satu span{
+    font-family: "Irish Grover";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: -2rem;
+}
+.sesion_2 .kotak .bawah .kotak_4 .flex-container_satu i,
+.sesion_2 .kotak .bawah .kotak_5 .flex-container_satu i,
+.sesion_2 .kotak .bawah .kotak_6 .flex-container_satu i{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.sesion_2 .kotak .bawah .kotak_4 .flex-container,
+.sesion_2 .kotak .bawah .kotak_5 .flex-container,
+.sesion_2 .kotak .bawah .kotak_6 .flex-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -1.5rem;
+    margin-right: 2rem;
+}
+
+.sesion_2 .kotak .bawah .kotak_4 span,
+.sesion_2 .kotak .bawah .kotak_5 span,
+.sesion_2 .kotak .bawah .kotak_6 span{
+    font-family: "Irish Grover";
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.sesion_2 .kotak .bawah .kotak_4 .flex-container i,
+.sesion_2 .kotak .bawah .kotak_5 .flex-container i,
+.sesion_2 .kotak .bawah .kotak_6 .flex-container i{
+    color: yellow;
+}
+
+.sesion_2_1 .judul{
+    font-family: "Irish Grover";
+    text-align: start;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding-left: 3rem;
+    padding-top: 4rem;
+}
+
+.sesion_2_1 .subjudul{
+    font-family: "Irish Grover";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-right: 45rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    text-align: justify;
+}
+
+.sesion_2_1 .kotak {
+    justify-content: space-between;
+    height: 480px;
+    width: auto;
+    background-color: rgba(186, 29, 29, 1);
+}
+
+.sesion_2_1 .kotak .gambar_1{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -22rem;
+    margin-left: 46rem;
+    border-radius: 20px;
+    background-image: url(IMG/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer_awal,
+.footer_isi,
+.footer_link{
+    background-color: rgba(255, 144, 144, 1);
+    color: #000;
+} 
+
+.footer_last{
+    background-color: rgba(186, 29, 29, 1);
+    color: #000;
+}
+
+.sesion_3{
+    font-family: "Irish Grover";
+}
+
+
+
